@@ -21,15 +21,8 @@
   	<!-- BEGIN CONTENT -->
     <section id="content">
 
-    	<?php $name = '<strong>Harmanpreet Singh</strong>'; ?>
+    <p>My random number is <?php echo "<strong>".rand(1, 19745)."</strong>"; ?>.</p>
 
-    	<p>Hello my name is <?php echo "$name"; ?></p>
-
-    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget ex at eros auctor pellentesque sed eu elit. In hac habitasse platea dictumst. Integer feugiat quam sed massa tempor sodales. Duis egestas non sem tincidunt mollis. Vivamus et egestas purus, ut sagittis nunc. Integer tincidunt nec nisl in tristique. Aliquam laoreet consectetur porttitor. Phasellus ut accumsan sem, pretium viverra lorem. Phasellus id pharetra leo. Sed tempus at augue ac ullamcorper.</p>
-
-    	<p>Sincerely,<br>
-		<strong><?php echo "$name"; ?></strong>
-    	</p>
     </section> 
     <!-- END CONTENT -->
     
