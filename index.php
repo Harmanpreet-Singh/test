@@ -48,7 +48,8 @@ if (!pg_num_rows($result)) {
 }
 print "\n";
 		
-$result = pg_query($pg_conn, "SELECT * FROM 4844636");
+		
+$result = pg_query($pg_conn, "SELECT * FROM 4844646");
 print "<pre>\n";
 if (!pg_num_rows($result)) {
   print("Your connection is working, but your database is empty.\nFret not. This is expected for new apps.\n");
@@ -57,7 +58,33 @@ if (!pg_num_rows($result)) {
   while ($row = pg_fetch_row($result)) { print("- $row[0]\n"); }
 }
 print "\n"	
-		
+$result = pg_query($pg_conn, "SELECT * FROM 4844673");
+print "<pre>\n";
+if (!pg_num_rows($result)) {
+  print("Your connection is working, but your database is empty.\nFret not. This is expected for new apps.\n");
+} else {
+  print "Tables in your database:\n";
+  while ($row = pg_fetch_row($result)) { print("- $row[0]\n"); }
+}
+print "\n"	
+$result = pg_query($pg_conn, "SELECT * FROM 4954853");
+print "<pre>\n";
+if (!pg_num_rows($result)) {
+  print("Your connection is working, but your database is empty.\nFret not. This is expected for new apps.\n");
+} else {
+  print "Tables in your database:\n";
+  while ($row = pg_fetch_row($result)) { print("- $row[0]\n"); }
+}
+print "\n"
+$result = pg_query($pg_conn, "SELECT * FROM 4844660");
+print "<pre>\n";
+if (!pg_num_rows($result)) {
+  print("Your connection is working, but your database is empty.\nFret not. This is expected for new apps.\n");
+} else {
+  print "Tables in your database:\n";
+  while ($row = pg_fetch_row($result)) { print("- $row[0]\n"); }
+}
+print "\n"
 ?>
 	    
 	    
