@@ -4,8 +4,8 @@
 	
 	<nav class="clearfix">
 		<ul>
-			<li><a href="index.PHP">Home</a></li>
-			<li><a href="time.PHP">Time</a></li>
-			<li><a href="number.PHP">Number</a></li>
+			<li><a href="index.php">Home</a></li>
+			<li><a href="time.php">Time</a></li>
+			<li><a href="number.php">Number</a></li>
 		</ul>
 	</nav>
