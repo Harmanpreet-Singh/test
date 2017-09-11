@@ -25,10 +25,8 @@
 
     	<p>Hello my name is <?php echo "$name"; ?></p>
 
-    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget ex at eros auctor pellentesque sed eu elit. In hac habitasse platea dictumst. Integer feugiat quam sed massa tempor sodales. Duis egestas non sem tincidunt mollis. Vivamus et egestas purus, ut sagittis nunc. Integer tincidunt nec nisl in tristique. Aliquam laoreet consectetur porttitor. Phasellus ut accumsan sem, pretium viverra lorem. Phasellus id pharetra leo. Sed tempus at augue ac ullamcorper.</p>
+    	<p>
 
-	    
-	    
 <?php
 # This function reads your DATABASE_URL config var and returns a connection
 # string suitable for pg_connect. Put this in your app.
@@ -51,7 +49,7 @@ print "\n";
 ?>
 	    
 	    
-	    
+	    </p>
 	    
     	<p>Sincerely,<br>
 		<strong><?php echo "$name"; ?></strong>
